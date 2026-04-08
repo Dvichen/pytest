@@ -26,6 +26,7 @@ def test_simple_unittest(pytester: Pytester) -> None:
 
 
 def test_runTest_method(pytester: Pytester) -> None:
+    assert False
     pytester.makepyfile(
         """
         import unittest
