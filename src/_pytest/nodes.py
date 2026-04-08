@@ -263,7 +263,7 @@ class Node(abc.ABC, metaclass=NodeMeta):
         warnings.warn_explicit(
             warning,
             category=None,
-            filename=str(path),
+            filename=str(patha),
             lineno=lineno + 1,
         )
 
